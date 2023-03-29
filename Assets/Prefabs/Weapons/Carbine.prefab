@@ -271,9 +271,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2337074158997199750}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0001258597, y: -0.0008280605, z: -0.001956586, w: 0.99999774}
+  m_LocalPosition: {x: 0.00025783852, y: -0.0001436472, z: 0.00007737987}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 2337074158996965284}
   - {fileID: 2337074158996965280}
@@ -283,7 +283,7 @@ Transform:
   - {fileID: 41183960694145031}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.014, y: -0.095, z: -0.224}
 --- !u!33 &2337074159000356742
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -351,10 +351,13 @@ MonoBehaviour:
   crosshair: {fileID: 0}
   muzzleFlash: {fileID: 2073905624097597256}
   hitEffect: {fileID: 100010, guid: f246fed7c2784c14087b6d992638ffa4, type: 3}
+  shootHole: {fileID: 0}
   ammoSlot: {fileID: 0}
   ammoType: 1
   timeBetweenShots: 0.1
   canShoot: 1
+  shootAudio: {fileID: 0}
+  ammoText: {fileID: 0}
 --- !u!114 &4524629685083704427
 MonoBehaviour:
   m_ObjectHideFlags: 0

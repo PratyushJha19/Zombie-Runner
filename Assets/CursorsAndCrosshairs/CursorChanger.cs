@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CursorChanger : MonoBehaviour {
+public class CursorChanger2 : MonoBehaviour {
 
     public Texture2D cursor;
 
